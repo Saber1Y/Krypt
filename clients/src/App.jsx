@@ -1,12 +1,21 @@
 import { useState } from 'react'
+import { NavBar, Service, Welcome, Loader, Footer } from './components/Index'
 
 
 function App() {
   return (
     <>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<div className='min-h-screen'>
+    <div className='gradient-bg-welcome'>
+    <NavBar />
+    <Service />
+    </div>
+  <div>
+    <Welcome />
+    <Loader />
+    <Footer />
+  </div>
+</div>
     </>
   )
 }
