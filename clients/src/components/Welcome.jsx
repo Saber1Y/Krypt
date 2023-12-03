@@ -28,8 +28,22 @@ const Welcome = () => {
 
           <div className='grid sm:grid-cols-3 grid-cols-2 mt-3 w-full'>
             <div className={`rounded-tl-2xl ${CommonStyle}`}>
-              {`rounded-tl-2xl ${CommonStyle}`}
               Reliability
+            </div>
+            <div className={CommonStyle}>
+             Security
+            </div>
+            <div className={`rounded-tr-2xl ${CommonStyle}`}>
+              Etherum
+            </div>
+            <div className={`rounded-bl-2xl ${CommonStyle}`}>
+              WEB3.0
+            </div>
+            <div className={`rounded-tt-2xl ${CommonStyle}`}>
+              Low Fees
+            </div>
+            <div className={`rounded-br-2xl ${CommonStyle}`}>
+              BlockChain
             </div>
           </div>
 
