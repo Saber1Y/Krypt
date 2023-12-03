@@ -7,10 +7,10 @@ function App() {
   <div className='min-h-screen'>
       <div className='gradient-bg-welcome'>
         <NavBar />
-        <Service />
+        <Welcome />
       </div>
     <div>
-      <Welcome />
+      <Service />
       <Loader />
       <Footer />
     </div>
