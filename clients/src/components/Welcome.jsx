@@ -54,6 +54,12 @@ const Welcome = () => {
               <div className='w-10 h-10 rounded-full border-2 border-white flex justify-start items-center '>
                 {/* <SiEthereum fontSize={21} color='fff' /> */}
                 </div>
+                <p className='text-sm text-white '>
+                  Address
+                </p>
+                <p className='text-base text-white'>
+                  Ethereum
+                </p>
               </div>
           </div>
         </div>
