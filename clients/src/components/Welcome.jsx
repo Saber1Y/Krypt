@@ -8,7 +8,10 @@ const Welcome = () => {
   const ConnectWallet = () => {
 
   }
+
+
   return (
+    
     <div className='flex w-full justify-center items-center'>
       <div className='flex md:flex-row flex-col items-start justify-between md:p-10 my-10 mx-4'>
         <div className='flex flex-1 justify-start flex-col md:mr-4'>
