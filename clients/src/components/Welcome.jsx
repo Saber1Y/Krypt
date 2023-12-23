@@ -1,5 +1,5 @@
 import React from 'react'
-// import { loader } from ''
+
 
 const Welcome = () => {
 
@@ -8,6 +8,10 @@ const Welcome = () => {
   const ConnectWallet = () => {
 
   }
+
+  const Input = ({ placeholder }) => (
+    <Input placeholder={placeholder} />
+  );
 
 
   return (
@@ -65,8 +69,10 @@ const Welcome = () => {
                 </p>
               </div>
           </div>
+          <div className='p-5 w-full flex flex-col justify-start items-center blue-glassmorphism'>
+            <Input placeholder="Adress to" type='text' handleChange={() => {}} />
+          </div>
         </div>
-
       </div>
     </div>
   )
